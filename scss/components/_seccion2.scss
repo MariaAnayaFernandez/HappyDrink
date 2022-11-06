@@ -1,0 +1,48 @@
+.seccion2{
+    
+    background-color: $hover-text-nav;
+
+    padding: nth($padding-size , 6 );
+
+    .seccion2-titulo{
+        font-family: 'Abril Fatface';
+        font-size: nth($font-size , 7 );
+        text-align: center;
+        padding: nth($padding-size , 3 );
+        background-color: $hover-text-nav;
+    }
+
+
+        h2{
+            background-color: $hover-text-nav;
+            color: $bg-principal;
+    }
+
+    .card-ind-sec2{
+            border: none;
+            .bg-imagen-s2{
+                background-color: $hover-text-nav;
+            }
+
+        }
+
+    .boton-menu{
+        background-color: $hover-text-nav;
+        button{
+            text-decoration: none;
+            background-color: $hover-text-nav;
+            font-family: 'Abril Fatface';
+            font-size: nth($font-size , 5 );
+            margin: nth($padding-size , 1 );
+            margin-left: 45%;
+            a{
+                color: $bg-principal;
+                background-color: $hover-text-nav;
+            }
+
+        }
+
+    }
+
+
+}

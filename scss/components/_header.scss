@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $bg-principal;
+    color: $color-text-nav;
+
+}
+
+    .menu-box{
+        position:fixed;
+        background-color: $bg-principal;
+        width: 100%;
+        height: auto;
+        top: 0px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        z-index: 2;
+    
+        .menu-div{
+            justify-content: end;
+            padding-right: nth($padding-size , 1 );
+
+    
+            .navbar-modi{
+                color: $color-text-nav;
+                display: flex;
+                text-decoration: none;
+                list-style: none;
+                justify-content: space-around;
+                font-family: 'Abril Fatface';
+                font-size: nth($font-size , 3 );
+    
+    
+                .menu-li a{
+                    
+                    padding: nth($padding-size, 1 );
+                    &:hover{
+                        color: $hover-text-nav;
+                    }
+                }
+    
+    
+    
+            }
+        }
+    }
+
+.video-portada{
+    position: absolute;
+    max-height:max-content;
+    z-index:-1;
+}

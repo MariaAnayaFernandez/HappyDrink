@@ -1,0 +1,40 @@
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .box_footer{
+        
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: nth($padding-size , 5 );
+
+        .texto_footer{
+            font-family: 'Bitter', serif;
+            font-size: nth($font-size , 6 );
+        }
+    }
+
+    .footer-redes{
+        display: flex;
+        flex-direction: column;
+        .menu-footer{
+            color: $color-text-nav;
+            font-family: 'Abril Fatface';
+            font-size: nth($font-size , 3 );
+            &:hover{
+                color: $hover-text-nav;
+            }
+        }
+
+        .redes{
+            padding-top: nth($padding-size , 3 );
+        }
+    }
+}
+
+.box_copy{
+    text-align: center;
+}

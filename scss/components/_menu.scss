@@ -1,0 +1,59 @@
+.titulo-menu{
+    font-family: 'Bitter', serif;
+    font-size: 100px;
+    padding: nth($padding-size , 7 );
+    margin-bottom: 0rem;
+    z-index:2;
+    text-align: center;
+    color: $hover-text-nav;
+}
+
+.menu-cards{
+    padding: nth($padding-size , 6 );
+    
+
+    h2{
+        text-align: center;
+        font-family: 'Abril Fatface';
+        padding: nth($padding-size , 5 );
+        padding-top: nth($padding-size , 5 );
+        font-size: nth($font-size ,2 );
+
+        .menu-div{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            height: var(--bs-card-height);
+            word-wrap: break-word;
+            background-color: var(--bs-card-bg);
+            background-clip: border-box;
+
+
+
+
+        
+        }
+        
+
+    }
+
+    h5{
+        text-align: center;
+        font-family: 'Abril Fatface';
+        font-size: nth($font-size , 4);
+        padding: nth($padding-size , 2 );
+    }
+
+    p{
+        text-align: center;
+        font-family: 'Bitter', serif;
+        font-size: nth($font-size , 6);
+    }
+
+    img{
+        &:hover{
+             transform: scale(1.03);
+        }
+    }
+}

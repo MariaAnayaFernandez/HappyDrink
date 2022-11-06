@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(11, 43, 51);
+  color: white;
+}
+
+.menu-box {
+  position: fixed;
+  background-color: rgb(11, 43, 51);
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+.menu-box .menu-div {
+  justify-content: end;
+  padding-right: 5px;
+}
+.menu-box .menu-div .navbar-modi {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+  font-family: "Abril Fatface";
+  font-size: 30px;
+}
+.menu-box .menu-div .navbar-modi .menu-li a {
+  padding: 5px;
+}
+.menu-box .menu-div .navbar-modi .menu-li a:hover {
+  color: rgb(210, 187, 178);
+}
+
+.video-portada {
+  position: absolute;
+  max-height: max-content;
+  z-index: -1;
+}
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container_footer .box_footer {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.container_footer .box_footer .texto_footer {
+  font-family: "Bitter", serif;
+  font-size: 15px;
+}
+.container_footer .footer-redes {
+  display: flex;
+  flex-direction: column;
+}
+.container_footer .footer-redes .menu-footer {
+  color: white;
+  font-family: "Abril Fatface";
+  font-size: 30px;
+}
+.container_footer .footer-redes .menu-footer:hover {
+  color: rgb(210, 187, 178);
+}
+.container_footer .footer-redes .redes {
+  padding-top: 15px;
+}
+
+.box_copy {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.seccion1 {
+  display: flex;
+  justify-content: center;
+}
+.seccion1 .imagen-secc-1 {
+  padding: 50px;
+}
+.seccion1 .promocion {
+  flex-wrap: wrap;
+}
+.seccion1 .promocion .texto-secc-1 h5 {
+  font-family: "Bitter", serif;
+  font-size: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.seccion1 .promocion .texto-secc-1 h2 {
+  font-family: "Abril Fatface";
+  padding-top: 50px;
+  font-size: 30px;
+}
+.seccion1 .promocion .grupo-tarjeta {
+  padding-bottom: 50px;
+}
+.seccion1 .promocion .grupo-tarjeta .card-title {
+  font-family: "Bitter", serif;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.seccion1 .promocion .grupo-tarjeta .card-text {
+  font-family: "Bitter", serif;
+  font-size: 18px;
+}
+
+.seccion2 {
+  background-color: rgb(210, 187, 178);
+  padding: 50px;
+}
+.seccion2 .seccion2-titulo {
+  font-family: "Abril Fatface";
+  font-size: 80px;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(210, 187, 178);
+}
+.seccion2 h2 {
+  background-color: rgb(210, 187, 178);
+  color: rgb(11, 43, 51);
+}
+.seccion2 .card-ind-sec2 {
+  border: none;
+}
+.seccion2 .card-ind-sec2 .bg-imagen-s2 {
+  background-color: rgb(210, 187, 178);
+}
+.seccion2 .boton-menu {
+  background-color: rgb(210, 187, 178);
+}
+.seccion2 .boton-menu button {
+  text-decoration: none;
+  background-color: rgb(210, 187, 178);
+  font-family: "Abril Fatface";
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 45%;
+}
+.seccion2 .boton-menu button a {
+  color: rgb(11, 43, 51);
+  background-color: rgb(210, 187, 178);
+}
+
+.parallax-bg {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-bg h1 {
+  background-color: transparent;
+  text-align: center;
+  padding-top: 200px;
+  font-family: "Abril Fatface";
+  font-size: 80px;
+}
+.parallax-bg p {
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  font-family: "Bitter", serif;
+  font-size: 20px;
+}
+
+.titulo-menu {
+  font-family: "Bitter", serif;
+  font-size: 100px;
+  padding: 75px;
+  margin-bottom: 0rem;
+  z-index: 2;
+  text-align: center;
+  color: rgb(210, 187, 178);
+}
+
+.menu-cards {
+  padding: 50px;
+}
+.menu-cards h2 {
+  text-align: center;
+  font-family: "Abril Fatface";
+  padding: 30px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+.menu-cards h2 .menu-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+}
+.menu-cards h5 {
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-size: 20px;
+  padding: 10px;
+}
+.menu-cards p {
+  text-align: center;
+  font-family: "Bitter", serif;
+  font-size: 15px;
+}
+.menu-cards img:hover {
+  transform: scale(1.03);
+}
+
+/*# sourceMappingURL=style.css.map */

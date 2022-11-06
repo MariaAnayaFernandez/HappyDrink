@@ -1,4 +1,4 @@
-
+/*
 //*************** INICIO *****************
 
 //Ingreso restringido a mayores de edad:
