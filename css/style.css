@@ -97,9 +97,10 @@
 }
 .seccion1 .promocion .texto-secc-1 h5 {
   font-family: "Bitter", serif;
-  font-size: 100px;
+  font-size: 90px;
   padding-top: 75px;
   padding-bottom: 75px;
+  color: rgb(210, 187, 178);
 }
 .seccion1 .promocion .texto-secc-1 h2 {
   font-family: "Abril Fatface";
@@ -108,6 +109,9 @@
 }
 .seccion1 .promocion .grupo-tarjeta {
   padding-bottom: 50px;
+}
+.seccion1 .promocion .grupo-tarjeta .border-non {
+  border: none;
 }
 .seccion1 .promocion .grupo-tarjeta .card-title {
   font-family: "Bitter", serif;
@@ -120,7 +124,6 @@
 }
 
 .seccion2 {
-  background-color: rgb(210, 187, 178);
   padding: 50px;
 }
 .seccion2 .seccion2-titulo {
@@ -128,32 +131,24 @@
   font-size: 80px;
   text-align: center;
   padding: 15px;
-  background-color: rgb(210, 187, 178);
-}
-.seccion2 h2 {
-  background-color: rgb(210, 187, 178);
-  color: rgb(11, 43, 51);
 }
 .seccion2 .card-ind-sec2 {
   border: none;
-}
-.seccion2 .card-ind-sec2 .bg-imagen-s2 {
-  background-color: rgb(210, 187, 178);
-}
-.seccion2 .boton-menu {
-  background-color: rgb(210, 187, 178);
 }
 .seccion2 .boton-menu button {
   text-decoration: none;
   background-color: rgb(210, 187, 178);
   font-family: "Abril Fatface";
   font-size: 18px;
-  margin: 5px;
+  margin: 10px;
   margin-left: 45%;
 }
 .seccion2 .boton-menu button a {
   color: rgb(11, 43, 51);
   background-color: rgb(210, 187, 178);
+}
+.seccion2 .boton-menu button:hover {
+  transform: scale(1.04);
 }
 
 .parallax-bg {
@@ -222,5 +217,7 @@
 .menu-cards img:hover {
   transform: scale(1.03);
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
