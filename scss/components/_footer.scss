@@ -1,7 +1,16 @@
+footer{
+.linea-footer{
+    width: 2px;
+    background: rgb(210,187,178);
+    background: linear-gradient(117deg, rgba(210,187,178,1) 0%, rgba(11,43,51,1) 0%, rgba(206,184,176,1) 100%);;
+}
+
+
 .container_footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 
     .box_footer{
         
@@ -37,4 +46,6 @@
 
 .box_copy{
     text-align: center;
+}
+
 }

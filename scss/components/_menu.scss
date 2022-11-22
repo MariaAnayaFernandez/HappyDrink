@@ -10,13 +10,15 @@
 
 .menu-cards{
     padding: nth($padding-size , 6 );
+    text-align: center;
+    
     
 
     h2{
         text-align: center;
         font-family: 'Abril Fatface';
         padding: nth($padding-size , 5 );
-        padding-top: nth($padding-size , 5 );
+        padding-top: nth($padding-size , 2 );
         font-size: nth($font-size ,2 );
 
         .menu-div{
@@ -50,6 +52,37 @@
         font-family: 'Bitter', serif;
         font-size: nth($font-size , 6);
     }
+
+    .ordenar{
+        padding: 5px;
+        color:$bg-principal;
+        background-color: white;
+        font-family: 'Bitter', serif;
+        font-size: nth($font-size , 6);
+        
+        .cantidad{
+            color:$bg-principal;
+            background-color: white;
+        }
+
+        .inp-ordenar{
+            padding: 5px;
+            color:$bg-principal;
+            background-color: white
+        }
+        .btn-ordenar {
+            padding: 5px;
+            color:$bg-principal;
+            background-color: white;
+    
+            &:hover{
+                transform: scale(1.05);
+           }  
+    
+        }
+
+    }
+
 
     img{
         &:hover{

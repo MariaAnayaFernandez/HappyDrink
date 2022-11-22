@@ -1,0 +1,24 @@
+
+
+
+    .caja-cuenta{
+   
+
+      .cuenta-header{
+        background-color: $bg-principal;
+        font-family: 'Bitter', serif;
+        font-size: nth($font-size , 3);
+        text-align: center;
+        padding: nth($padding-size , 3 );
+    }
+
+    .lista-cuenta{
+        align-items: center;
+        display: flex;
+        justify-items: center;
+    }
+    }
+    
+
+
+

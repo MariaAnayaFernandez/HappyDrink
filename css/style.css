@@ -43,39 +43,43 @@
   z-index: -1;
 }
 
-.container_footer {
+footer .linea-footer {
+  width: 2px;
+  background: rgb(210, 187, 178);
+  background: linear-gradient(117deg, rgb(210, 187, 178) 0%, rgb(11, 43, 51) 0%, rgb(206, 184, 176) 100%);
+}
+footer .container_footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.container_footer .box_footer {
+footer .container_footer .box_footer {
   max-width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
 }
-.container_footer .box_footer .texto_footer {
+footer .container_footer .box_footer .texto_footer {
   font-family: "Bitter", serif;
   font-size: 15px;
 }
-.container_footer .footer-redes {
+footer .container_footer .footer-redes {
   display: flex;
   flex-direction: column;
 }
-.container_footer .footer-redes .menu-footer {
+footer .container_footer .footer-redes .menu-footer {
   color: white;
   font-family: "Abril Fatface";
   font-size: 30px;
 }
-.container_footer .footer-redes .menu-footer:hover {
+footer .container_footer .footer-redes .menu-footer:hover {
   color: rgb(210, 187, 178);
 }
-.container_footer .footer-redes .redes {
+footer .container_footer .footer-redes .redes {
   padding-top: 15px;
 }
-
-.box_copy {
+footer .box_copy {
   text-align: center;
 }
 
@@ -185,12 +189,13 @@
 
 .menu-cards {
   padding: 50px;
+  text-align: center;
 }
 .menu-cards h2 {
   text-align: center;
   font-family: "Abril Fatface";
   padding: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 40px;
 }
 .menu-cards h2 .menu-div {
@@ -214,10 +219,45 @@
   font-family: "Bitter", serif;
   font-size: 15px;
 }
+.menu-cards .ordenar {
+  padding: 5px;
+  color: rgb(11, 43, 51);
+  background-color: white;
+  font-family: "Bitter", serif;
+  font-size: 15px;
+}
+.menu-cards .ordenar .cantidad {
+  color: rgb(11, 43, 51);
+  background-color: white;
+}
+.menu-cards .ordenar .inp-ordenar {
+  padding: 5px;
+  color: rgb(11, 43, 51);
+  background-color: white;
+}
+.menu-cards .ordenar .btn-ordenar {
+  padding: 5px;
+  color: rgb(11, 43, 51);
+  background-color: white;
+}
+.menu-cards .ordenar .btn-ordenar:hover {
+  transform: scale(1.05);
+}
 .menu-cards img:hover {
   transform: scale(1.03);
 }
 
-
+.caja-cuenta .cuenta-header {
+  background-color: rgb(11, 43, 51);
+  font-family: "Bitter", serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+.caja-cuenta .lista-cuenta {
+  align-items: center;
+  display: flex;
+  justify-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
