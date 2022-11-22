@@ -25,11 +25,11 @@ const renglonCantidad = document.querySelector('#renglonCantidad')
 
 const mandarACuenta = (e) => {
     const nombreCoctelElegido= (e.target.closest('.col').getAttribute('nombre'))
-    const coctelElegido = allDrinks.find((coctel) => coctel.nombre == nombreCoctelElegido)
-    localStorage.setItem(coctelElegido)
+    const coctelElegido = allDrinks.find((coctel) => coctel.nombre == nombreCoctelElegido) 
     renglonNombre.textContent = coctelElegido.nombre
     renglonPrecio.textContent = `$${coctelElegido.precio}`
     renglonCantidad.textContent = 1
+    localStorage.setItem(coctelElegido)
     
 }
 
