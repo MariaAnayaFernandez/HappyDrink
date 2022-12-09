@@ -39,7 +39,10 @@
                     &:hover{
                         color: $hover-text-nav;
                     }
+                    
                 }
+
+
     
     
     
@@ -51,4 +54,57 @@
     position: absolute;
     max-height:max-content;
     z-index:-1;
+}
+
+.tablaContenido{
+    font-family: 'Bitter', serif;
+    font-size: nth($font-size , 6);
+}
+
+.orden-fianl{
+    color:white;
+    background-color: black;
+    padding: nth($padding-size, 1);
+    &:hover{
+        color:$bg-principal;
+        background-color:white ;
+    }
+}
+
+
+.sa-custum{
+
+ h2{
+    background-color: white;
+    font-family: 'Abril Fatface';
+    font-size: nth($font-size , 3 );
+    color:$bg-principal
+}
+}
+
+.sa-icon {
+    p {
+    background-color: white;
+    font-family: 'Bitter', serif;
+    font-size: nth($font-size , 6);
+    color:$bg-principal
+}
+}
+
+.sa-button-container,.sa-confirm-button-container {
+    background-color: white;
+}
+
+fieldset{
+    background-color: white;
+}
+
+.confirm{
+    color:white;
+    background-color: black;
+    padding: nth($padding-size, 1);
+    &:hover{
+        color:$bg-principal;
+        background-color:white ;
+    }
 }
